@@ -47,8 +47,26 @@ public class primitivedatatypes {
         System.out.println("Long Max Value: " + mymaxlongvalue);
         System.out.println("Long min value: " + myminlongvalue);
 
-        long bitlongliteralvalue = 2_147_483_647_234L;
+        short bitlongliteralvalue = 3267;
 
+
+        // casting in java
+
+        int mytotal = (myMinIntValue/2);
+        byte mynewbytevalue = (byte)(MyMinByteValue/2); // typecasting int to byte
+
+        short myNewShortValue = (short)(MyMinShortValue/2);
+        long mynewlongvalue = (myminlongvalue/2);
+
+
+
+        // primitive Data types challenge
+
+        byte bytevalue = 125;
+        short shortvalue = 32500;
+        int intvalue = 2147483630;
+        long longvalue = (50000L + 10L*(bytevalue + shortvalue + intvalue));
+        System.out.println(longvalue);
 
     }
 
