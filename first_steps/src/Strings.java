@@ -3,7 +3,7 @@ public class Strings {
     public static void main(String[] args){
 
         /*
-        *  Primitive Datatypes in Java:
+        *  Primitive DataTypes in Java:
         *
         * Boolean
         * Char - 16 Bits
@@ -36,9 +36,9 @@ public class Strings {
         String totalnum = numString1 + numString2;
         System.out.println(totalnum);
 
-        int lastint = 10;
-        String laststring = "20";
-        System.out.println(laststring + lastint  );
+        int lastInt = 10;
+        String lastString = "20";
+        System.out.println(lastString + lastInt);
 
 
 
