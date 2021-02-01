@@ -9,7 +9,10 @@ public class statementsWhitespacesIndentations {
         myVariable--;
         System.out.println("This is an expression");
 
-        System.out.println("This is another statement in java");
+        System.out.println("This is" + " another statement" + " in java");
+
+        int anothervariable=30;System.out.println("This is another statement after the semicolon");myVariable++;
+
 
 
     }
