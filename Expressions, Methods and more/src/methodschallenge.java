@@ -24,17 +24,31 @@ public class methodschallenge {
 
     public static int calculateHighScorePosition(int playerscore){
 
-        if(playerscore >=1000){
-            return 1;
+//        if(playerscore >=1000){
+//            return 1;
+//
+//        }
+//        else if(playerscore>=500){
+//            return 2;
+//
+//        }
+//        else if(playerscore>=100){
+//            return 3;
+//        }
+//        return 4;
 
-        }
-        else if(playerscore>=500 && playerscore<1000){
-            return 2;
+        //reducing the number of return statements in the code
 
+        int position =4; // assuming position4 will be returned
+
+        if(playerscore >= 1000){
+            position =1;
+        } else if(playerscore>=500){
+            position =2;
+        }else if(position>=100){
+            position=3;
         }
-        else if(playerscore>=100 && playerscore<500){
-            return 3;
-        }
-        return 4;
+        position = 4;
+        return position;
     }
 }
