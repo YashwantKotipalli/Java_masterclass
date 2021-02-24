@@ -1,7 +1,7 @@
 public class MinutesToYearsToDays {
 
     public static void main(String[] args) {
-        System.out.println(printYearsAndDays(525600));
+
 
     }
 
