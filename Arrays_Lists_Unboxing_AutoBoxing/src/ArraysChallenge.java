@@ -6,8 +6,9 @@ public class ArraysChallenge {
     public static void main(String[] args){
 
         int[] myIntegers = getIntegers(5);
-        printArray(myIntegers);
-        sortIntegers(myIntegers);
+
+        int[] sorted = sortIntegers(myIntegers);
+        printArray(sorted);
 
     }
 
