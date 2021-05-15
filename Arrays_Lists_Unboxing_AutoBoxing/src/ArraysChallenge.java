@@ -46,12 +46,13 @@ public class ArraysChallenge {
                     temp = sortedArray[i];
                     sortedArray[i] = sortedArray[i+1];
                     sortedArray[i+1] = temp;
-                    flag = true;
+                    flag =true;
                 }
             }
         }
 
         return sortedArray;
+
 
     }
 
